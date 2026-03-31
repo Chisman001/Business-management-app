@@ -1,0 +1,8 @@
+---
+description: Delete test files after confirming they are no longer needed
+alwaysApply: true
+---
+
+# Test File Cleanup
+
+Delete any test files after confirming they are no longer needed.

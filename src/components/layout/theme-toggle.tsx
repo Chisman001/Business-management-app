@@ -13,14 +13,14 @@ export function ThemeToggle() {
     setMounted(true)
   }, [])
 
-  if (!mounted) return <div className="h-9 w-9" />
+  if (!mounted) return <div className="h-11 w-11" />
 
   return (
     <button
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
       aria-label="Toggle theme"
       className={cn(
-        "flex h-9 w-9 items-center justify-center rounded-lg",
+        "flex h-11 w-11 items-center justify-center rounded-lg",
         "text-slate-500 hover:bg-slate-100 hover:text-slate-900",
         "dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-slate-100",
         "transition-colors duration-200"

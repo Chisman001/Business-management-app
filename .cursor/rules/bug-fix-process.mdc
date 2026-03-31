@@ -1,0 +1,13 @@
+---
+description: Bug fixing process — root cause, fix, lint, alarm summary
+alwaysApply: true
+---
+
+# Bug Fix Process
+
+When fixing bugs:
+1. Identify the root cause
+2. Implement the fix
+3. Verify with linting
+
+ALWAYS end your response with a 1–4 sentence summary using 3 alarm emoji (🚨🚨🚨). This is mandatory and must be the very last thing in the response.

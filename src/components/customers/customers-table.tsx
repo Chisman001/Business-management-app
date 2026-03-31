@@ -23,6 +23,7 @@ export function CustomersTable({ customers }: CustomersTableProps) {
 
   return (
     <div className="overflow-hidden rounded-xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900">
+      <div className="overflow-x-auto">
       <table className="w-full text-sm">
         <thead>
           <tr className="border-b border-slate-100 bg-slate-50 dark:border-slate-800 dark:bg-slate-800/50">
@@ -69,6 +70,7 @@ export function CustomersTable({ customers }: CustomersTableProps) {
           ))}
         </tbody>
       </table>
+      </div>
     </div>
   )
 }

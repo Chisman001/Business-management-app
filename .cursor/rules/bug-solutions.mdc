@@ -1,0 +1,8 @@
+---
+description: Always check BUG_SOLUTIONS.md before fixing any bug
+alwaysApply: true
+---
+
+# Bug Solutions Reference
+
+Before fixing any bug, ALWAYS check `docs/BUG_SOLUTIONS.md` for existing fixes and patterns that may already solve the issue.

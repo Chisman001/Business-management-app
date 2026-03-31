@@ -1,0 +1,8 @@
+---
+description: Reuse or refactor repeated UI into shared components
+alwaysApply: true
+---
+
+# Shared Components
+
+When adding UI elements that repeat between pages, either reuse an existing shared component or refactor the repeated markup into a shared component before finishing the task.

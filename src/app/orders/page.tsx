@@ -29,7 +29,7 @@ export default async function OrdersPage() {
     .reduce((sum, o) => sum + (o.price ?? 0), 0)
 
   return (
-    <div className="p-8">
+    <div className="p-4 md:p-8">
       <div className="mb-6">
         <h1 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
           Orders
