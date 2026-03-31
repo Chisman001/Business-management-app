@@ -2,6 +2,8 @@
 
 A full-stack business management app for the textile industry, built with Next.js 14, Supabase, TailwindCSS, and TypeScript.
 
+**Live site:** [https://textile-business-management-app](https://business-management-app-delta.vercel.app/)
+
 ## Features
 
 - **Dashboard** — Live stats: total products, orders, revenue, customers
